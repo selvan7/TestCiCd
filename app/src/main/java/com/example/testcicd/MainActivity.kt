@@ -9,6 +9,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Toast.makeText(applicationContext, "New Commit Test7 CI/CD  !!!", Toast.LENGTH_LONG).show()
+        Toast.makeText(applicationContext, "New Test CI/CD  !!!", Toast.LENGTH_LONG).show()
     }
 }
