@@ -12,7 +12,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+
         Toast.makeText(applicationContext, "Test777 CI/CD test1  !!!", Toast.LENGTH_LONG).show()
+
         AppCenter.start(
             application, "28c5fd8d-d1bf-4603-9ab9-15b4ba85b085",
             Analytics::class.java, Crashes::class.java
