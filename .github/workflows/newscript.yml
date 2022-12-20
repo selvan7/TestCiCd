@@ -4,7 +4,7 @@ jobs:
     # runs-on: ubuntu-latest
     runs-on: macos-latest # Switched to macOS
     steps:
-        ...
+        
       - name: Run unit tests
         run: ./gradlew testDebugUnitTest
 
